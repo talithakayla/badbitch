@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #99b2dd;
+}
+#clock h2
+{
+	position: relative;
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	font-size: 1em;
+}
+#clock iframe
+{
+	position: relative;
+	display: flex;
+}
+#clock #tht
+{
+	position: relative;
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	font-size: 1.5em;
+	-webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+}
+#clock #tht2
+{
+	position: relative;
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	font-size: 1.3em;
+	-webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+}
+#clock #tht3
+{
+	position: relative;
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	font-size: 1.3em;
+	-webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+}
+#clock #time
+{
+	display: flex;
+}
+#clock #time div
+{
+	position: relative;
+	margin: 0 5px;
+	/*-webkit-box-reflect: below 1px linear-gradient(transparent,#0004);*/
+}
+#clock #time div span
+{
+	position: relative;
+	display: block;
+	width: 200px;
+	height: 180px;
+	background: #dfb8c3;
+	color: #fff;
+	font-weight: 300;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 7em;
+	z-index: 10;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+}
+#clock #time div span:nth-child(2)
+{
+	height: 30px;
+	font-size: 1.5em;
+	letter-spacing: 0.2em;
+	font-weight: 500;
+	z-index: 9;
+	box-shadow: none;
+	background: #dbb1bc;
+	text-transform: uppercase;
+}
+#clock #time div:last-child span
+{
+	background: #b15e6c;
+}
+#clock #time div:last-child span:nth-child(2)
+{
+	background: #a45561;
+}
+
